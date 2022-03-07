@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 14, 147);
+
+}
+div{   
+    color: rgb(77, 72, 72);
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-radius: 45px;
+    border-width: 100px;
+    margin: auto;
+    background-color:rgb(255, 251, 9) ;
+    width:600px ;
+}
+input{
+    border: none;
+    outline: none;
+    color:black;
+    width:90%;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+a{  
+    color: rgba(25, 0, 248, 0.945);
+    text-decoration: none;
+}
+.top {
+    color: rgb(71, 26, 47);
+    font-size: 30px;
+}
+.bottom {
+    background-color:rgb(252, 155, 10) ;
+    color: rgb(8, 8, 8);
+    width: 40%;
+    outline: none;
+}
+input:focus{
+    background-color: cyan;
+    color: rgb(0, 17, 255);
+}
